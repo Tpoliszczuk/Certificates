@@ -1,0 +1,45 @@
+Write a C++ program using virtual Class. 
+
+Base class Person  is created as public and declare the below attribute as protected,
+
+string socialSecurityNumber;
+
+Define Getters and setters as public for the above attribute as setSocialSecurityNumber, getSocialSecurityNumber.
+
+Derived class Student as public is created with the below protected attribute,
+
+ int studentId;
+
+Student class should be virtually derived from the base class Person. 
+
+Define the Getters and setters as public for the above attribute as setStudentId, getStudentId.
+
+Derived class Employee is created as public with the below protected attribute ,
+
+int employeeId;
+
+Employee class should be virtually derived from the base class Person.  
+
+Define the Getters and setters as public for the above variable as setEmployeeId, getEmpoyeeId.
+
+Create a Trainee class which inherits the properties of  class Student and Employee as public.
+
+Declare a private attribute traineeId in Trainee class.
+
+Define the Getters and setters as public for the attribute traineeId as setTraineeId, getTraineeId.
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not the presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input:
+
+Enter Trainee ID:103
+
+Enter SSN Number:123WES345
+
+Sample Output:
+
+Trainee ID: 103
+
+Social Security Number: 123WES345

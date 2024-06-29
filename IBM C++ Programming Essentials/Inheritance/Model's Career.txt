@@ -1,0 +1,61 @@
+Helen is a top model and actress. She works in Advertisements and Movies. She needs a virtual assistant to help her to calculate total earnings. Help her with this by writing a C++ program.
+
+Make a virtual assistant for her using Hierarchical Inheritance.
+
+class Heroine with one protected attribute double earningsPerDay is created as a part of code skeleton.
+
+Included getter and setter method for the above variable as a part of code skeleton.
+
+Include the method with the name 'calcEarnings' has one parameter 'int noOfDays' with return type long.
+
+Functionality: calcEarnings method must return total earnings.
+
+Condition : totalEarnings = earningsPerDay * noOfDays;
+
+Create a class MovieHeroine that inherits the properties of the class Heroine and has one attribute int daysRun (number of days the movie run) as private and override the calcEarnings  method.
+
+Include appropriate getter and setter for the above attribute in MovieHeroine class as public.
+
+Method with the name 'calcEarnings' has one parameter 'int noOfDays' with return type long.
+
+Functionality: calcEarnings method has to return total earnings.
+
+Condition : totalEarnings =  earningsPerDay * noOfDays
+
+totalEarning=totalEarning+(totalEarning*extraPercentage/100)
+
+If the daysRun is greater than 100, 10% extra from the total earning, if it is greater than 50 and less than or equal to 100 then 5% extra from the total earning, if it is less than or equal to 50 no extra percentage of amount.
+
+Create a class AdvertisementModel that inherits the properties of the class Heroine and has one attribute int rating (rating for the advertisement) as private and override the calcEarnings  method.
+
+Include appropriate getter and setter for the above attribute in AdvertisementModel class as public.
+
+ Method with the name 'calcEarnings' has one parameter 'int noOfDays' with return type long.
+
+Functionality : calcEarnings method has to return total earnings.
+
+Condition : totalEarning=(earningsPerDay * noOfDays)+extraAmount
+
+If the rating is above 5, then extra amount of 10000 will be added with the total earning, if the rating is less than 5 and greater than 2 then extra amount of 5000 will be added with the total earning and if the rating is less than 2 then no extra amount
+
+Create a function main() to get input and print the output.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the earnings per day: 40000
+
+Enter the number of days for movie: 34
+
+Enter the number of days movie run: 100
+
+Enter the number of days for advertisement: 20
+
+Enter the Advertisement rating: 4
+
+Sample Output 1:
+
+Earnings for Movie: 1428000
+
+Earnings for Advertisement: 805000

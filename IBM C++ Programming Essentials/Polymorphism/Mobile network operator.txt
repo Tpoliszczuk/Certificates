@@ -1,0 +1,100 @@
+Unicorn is a  mobile network operator that  provides offers based on the customer type.
+
+Based on the customer's usage, customer type is defined. i.e, if the usage is less than 1,00,000 calls per year, then they are said to be NormalCustomer.
+
+If the usage is greater than 1,00,000 but less than or equal to 5,00,000 calls per year, then they are said to be BrandCustomer.
+
+If the usage is greater than 5,00,000 calls per year, then they are said to be ExecutiveCustomer.
+
+The network offers various tariff for each type of customer.
+
+Types of customers are denoted as 1, 2 or 3, 
+
+NormalCustomer
+BrandCustomer
+ExecutiveCustomer
+For NormalCustomer, tariff amount will be zero.
+
+For BrandCustomer , tariff amount will be, 2 dollar per unit + 100 dollar.
+
+For ExecutiveCustomer, tariff amount will be, 5 dollar  per unit.
+
+Customer class is created with the below protected attributes:
+
+String name
+String email
+int units
+Getters and setters are also provided as part of the Customer class
+
+Declare the method int calculateTariff() as public in Customer class.
+
+Create 3 child classes for class Customer:
+
+  1. class NormalCustomer
+
+  2. class BrandCustomer
+
+  3. class ExecutiveCustomer
+
+Override the below  method in each of the below class:
+
+int calculateTariff()
+
+a) In class NormalCustomer, this method must return 0.
+
+b) In class BrandCustomer, this method must use the formula, 100 + units*2
+
+c)  In class  ExecutiveCustomer, this method must use the formula, units*5
+
+Based on customer type, create the respective object and set the units to calculate the tariff amount and return it.
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the name:
+John
+Enter the emailId:
+john@gmail.com
+Enter the units:
+20
+Enter customer type:
+1 
+
+Sample Output 1:
+
+Calculated Tariff(In US dollars): 0
+
+
+Sample Input 2:
+
+Enter the name:
+Phil
+Enter the emailId:
+phil@gmail.com
+Enter the units:
+300
+Enter customer type:
+2
+
+Sample Output 2:
+
+Calculated Tariff(In US dollars): 700
+
+Sample Input 3:
+
+Enter the name:
+Tom
+Enter the emailId:
+tom@gmail.com
+Enter the units:
+200
+Enter customer type:
+3
+
+Sample Output 3:
+
+Calculated Tariff(In US dollars): 1000

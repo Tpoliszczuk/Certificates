@@ -1,0 +1,52 @@
+John needs to track his investments. He has invested in  Fixed Deposits, Mutual Funds and Stock. Help him to calculate the total returns from his investments using the function overloading concepts in C++.
+
+Note: Overload the function "calculateTotalReturns".
+
+FD (Fixed Deposit) : 
+
+Get two 'int' inputs from the user (amount invested, interest rate).
+Total returns calculation  = amount invested +( (amount invested  * interest rate) / 100)
+Mutual Funds:
+
+Get 3 'int' inputs from the user (amount invested every month, number of years, return rate). 
+Total returns calculation  = total amount +( (total amount * return rate) / 100).
+Total amount =  (amount invested every month * 12 *  number of years).
+Stock:
+
+Get 3 inputs from the user, one as string(stock name), one as a double(stock price) , one as an int(number).
+Total returns calculation  = stock price * number.
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+FD:
+Enter amount in US dollars: 10000
+Enter interest rate: 7
+
+Sample Output 1:
+
+Total Returns (In US dollars):10700
+
+Sample Input 2:
+
+Mutual Funds:
+Enter amount invested every month: 500
+Enter term in years: 2
+Enter return rate: 10
+
+Sample Output 2:
+
+Total Returns (In US dollars): 13200
+
+Sample Input 3:
+
+Stock:
+Enter stock name: ITC
+Enter stock price: 242.55
+Enter number of stocks: 20
+
+Sample Output 3:
+
+Total Returns (In US dollars): 4851

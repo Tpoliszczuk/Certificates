@@ -1,0 +1,54 @@
+Sam is developing a calculator application. Help him create an application that calculates areas of circle, rectangle and triangle.
+
+A class Shape is given as a part of the code skeleton.
+Declare the following method as public in the Shape class:
+double calculateArea() â€“ Provide implementation for calculateArea() method in the respective classes to calculate area of circle, rectangle, triangle and return it. 
+
+Formulas used for calculation:
+Area of circle, Area = Ï€ Ã— r2  where r =  radius
+Area of rectangle, Area = w Ã— h where w = width, h = height
+Area of triangle, Area = Â½ Ã— b Ã— h where b = base, h = vertical height
+
+Circle, Rectangle and Triangle classes are provided as a part of the code skeleton. All these class inherits Shape class as public.
+For Circle class : int radius is a private attribute
+For Rectangle class : int width and int height are private attributes
+For Triangle class : float base and float height are private attributes
+
+Include appropriate getters and setters methods in Circle, Rectangle and Triangle classes.
+Create a main() method, get the type of shape as an input from the user. 
+Based on the type given (Circle or Rectangle or Triangle), get the corresponding values from the user (in cm) and invoke the corresponding method. 
+If the input type is 'Circle', then get the radius (in cm) as input from the user. Then set the radius and invoke calculateArea method to find the area of a circle. 
+If the input type is 'Rectangle', then get the width (in cm) and height (in cm) as inputs from the user. Then set the width and height and invoke calculateArea() to find the area of a rectangle. 
+If the input type is 'Triangle', then get the base and vertical height as inputs from the user. Then set base and height, and invoke the method calculateArea() to find the area of a triangle. 
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+Sample Input 1: 
+Enter the type of shape:
+Circle
+Enter the radius (in cm):
+6
+
+Sample Output 1:
+The area of the Circle is: 113.04 square centimeters 
+Sample Input 2:
+Enter the type of shape:
+Rectangle
+Enter the width (in cm):
+21
+Enter the height (in cm):
+15
+
+Sample Output 2:
+The area of the Rectangle is: 315 square centimeters
+ 
+Sample Input 3:
+Enter the type of shape:
+Triangle
+Enter the base (in cm):
+14
+Enter the height (in cm):
+10
+
+Sample Output 3:
+The area of the Triangle is: 70 square centimeters

@@ -1,0 +1,37 @@
+Flamingo Textiles, a firm that manufactures and markets dresses and shirts, would like to create an application. This application should display the garment price based on size. On festival seasons , they plan to give a 40% discount on all the dresses. Help them to create a C++ application using Multilevel Inheritance (Product, Dress, Shirt) concept.
+
+A class Product contains the following attributes as protected:
+int markedPrice - This attribute value is always 1000 dollars.
+int discount - This attribute value is always 40 dollars.
+Getter and setter methods are included for the above attributes as a part of code skeleton.
+
+Create a class Dress and that  inherits the properties of the class Product.  Implement the method given below:
+char findSize(int chestSize) -  This method has to return the size based on the chest size passed as an argument.
+When chestSize is 20-30 => 'S'
+When chestSize is 31 - 40 => 'M'
+When chestSize is above 40 => 'L'
+Create a class Shirt that inherits the properties of the class Dress and has the following method:
+int calculatePrice(char chestSize) - This method has to return the calculated price.
+Apply the discount to the marked price (markedPrice = markedPrice - ((markedPrice * discount)/100))
+Add 1000 dollars to the markedPrice for large size dress 
+Add 500 dollars to the markedPrice for medium size dress 
+Create a function main() to test the application.
+
+Note: Avoid the usage of exit(0) in your code.  
+Sample Input 1:
+Enter the chest size : 20
+Sample Output 1:
+Dress Size : S
+Price (in $) : 600 
+
+Sample Input 2:
+Enter the chest size : 41
+Sample Output 2:
+Dress Size : L
+Price (in $) : 1600 
+
+Sample Input 3:
+Enter the chest size : 35
+Sample Output 3:
+Dress Size : M
+Price (in $) : 1100 

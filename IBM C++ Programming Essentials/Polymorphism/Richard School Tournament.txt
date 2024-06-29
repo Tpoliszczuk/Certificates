@@ -1,0 +1,59 @@
+Richard School is organizing an inter-district sports tournament. The tournament contains several sports events such as Cricket, Carrom and Basketball. Calculate the score for a respective game using the function overloading concept in C++.
+
+Note: Overload the function "calculateScore"
+
+Cricket : 
+
+Get three 'int' inputs from the user (number of sixers, number of fours and number of singles)
+Score calculation  = (number of sixers * 6 )+ (number of fours * 4 )+ (number of singles)
+Carrom :
+
+Get 2 'int' inputs (number of white pockets, number of black pockets) and one 'bool' (if red pockets or not)input from the user
+Score calculation = (number of white* 2 )+ (number of black* 1 ); If red pockets , add 5 points to the final score.
+Basketball:
+
+Get 2 'int' inputs (number of goals, number of fouls) from the user.
+Score calculation = (number of goals ) - (number of fouls).
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+CRICKET:
+
+Enter number of sixers : 4
+
+Enter number of fours : 5
+
+Enter number of singles : 10
+
+Sample Output 1:
+
+CALCULATED SCORE : 54
+
+Sample Input 2:
+
+CARROM:
+
+Enter number of white coins pocket : 5
+
+Enter number of black coins pocket : 3
+
+Red Pocket(0/1): 1
+
+Sample Output 2:
+
+CALCULATED SCORE : 18
+
+Sample Input 3:
+
+BASKETBALL:
+
+Enter number of goals : 10
+
+Enter number of fouls : 2
+
+Sample Output 3:
+
+CALCULATED SCORE : 8

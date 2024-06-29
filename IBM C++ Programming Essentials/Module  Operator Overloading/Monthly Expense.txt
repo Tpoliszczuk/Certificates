@@ -1,0 +1,46 @@
+As part of better financial planning, Kim is calculating his monthly expenses for the months of November and December. Implement for the same in C++, using the operator overloading concept. 
+
+A class MonthlyExpense with two private attributes household_exp and medical is already provided as a part of the code skeleton. Implement appropriate setters and getters.
+double calculateNovemberMonthExpense() - Add household and medical expenses - calculate the total expense for November month and return it. 
+double calculateDecemberMonthExpense() - Add household and medical expenses - calculate the total expense for December month and return it.
+
+To overload the '+' operator, Implement the method : MonthlyExpense operator +(const MonthlyExpense expObj)
+In this method, add November and December month household expenses & store the same in a new household expense variable. Also, add November and December medical expenses & store the same in a new medical expense variable and return that object.
+
+Implement double calculateTotalExpense() method - In this method, calculate the total ( household + medical) expenses of two months (2 objects - November and December) and display it. 
+
+Implement main() as given below:
+Create a MonthlyExpense object and get November month's expense details (in $) and set the details using setters.
+Calculate the total expense of November by invoking  the method calculateNovemberMonthExpense().
+Create a MonthlyExpense object and get December month's expense details (in $) and set the details using setters.
+Get the total expense of December by  invoking the method calculateDecemberMonthExpense().
+Add November object and December object by using operator overloading concept (Overload the + operator).
+Get the total expense by invoking calculateTotalExpense() method.
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+Sample Input 1:
+
+Enter the House hold expense of November (in $) : 20000.00
+Enter the Medical expense of November (in $) : 5000.00
+Enter the House hold expense of December (in $) : 10000.00
+Enter the Medical expense of December (in $) : 3000.00
+
+Sample Output 1:
+
+November Expenses (in $) : 25000
+December Expenses (in $) : 13000
+Total Expenses for the month of Nov and Dec (in $) : 38000
+ 
+Sample Input 2:
+
+Enter the House hold expense of November (in $) :15000.00
+Enter the Medical expense of November (in $) : 2000.00
+Enter the House hold expense of December (in $) : 12000.00
+Enter the Medical expense of December (in $) : 1000.00
+
+Sample Output 2:
+
+November Expenses (in $) : 17000
+December Expenses (in $) : 13000
+Total Expenses for the month of Nov and Dec (in $)  : 30000
