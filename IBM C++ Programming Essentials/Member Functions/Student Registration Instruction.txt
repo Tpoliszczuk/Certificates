@@ -1,0 +1,46 @@
+Christy College of Engineering and Technology wants to create an application to display the studentâ€™s details. Develop a C++ program to implement this scenario. 
+
+Create a class Student with the below private attributes:
+
+int studentId
+string name
+int departmentId
+string gender
+string phoneNumber
+Include appropriate public getter and setter methods for the above variables. 
+
+    void setStudentId(int)
+    int getStudentId()
+    void setName(string)
+    string getName()
+    void setDepartmentId(int)
+    int getDepartmentId()
+    void setGender(string)
+    string getGender()
+    void setPhoneNumber(string)
+    string getPhoneNumber()
+Write a main method to get the details from the user. Create an object for the Student class and set the values using the setter method. Then get the values using getters and display them as shown in sample Input/Output.
+
+Note: Use the same attribute names and methods as given in the question. Use camel case notation [mixed case with the first letter lowercase and with the first letter of each internal word capitalized, Example: studentId] for methods and variables.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input:
+
+Enter the details:
+Student Id
+1
+Student Name
+John
+Department Id
+101
+Gender
+Male
+Phone Number
+9876543210
+
+Sample Output:
+
+Student details entered:
+
+1 John 101 Male 9876543121

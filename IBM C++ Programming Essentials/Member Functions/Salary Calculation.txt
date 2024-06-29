@@ -1,0 +1,45 @@
+class Employee is created with the given private member variables as a part of the code skeleton.
+
+int employeeId
+string employeeName
+double salary
+double netSalary
+Include appropriate public getters and setters methods in the Employee class.
+getEmployeeId()
+getEmployeeName()
+getSalary()
+getNetSalary()
+setEmployeeId(int)
+setEmployeeName(string)
+setSalary(double)
+setNetSalary(double)
+The Net Salary, which is the amount an Employee receives at the end of a month, is the amount after deduction of Provident Fund contribution from Salary. The Provident Fund contribution is a Retirement/Pension Fund contribution. 
+
+Write the following 'public' method in the Employee class:
+
+void calculateNetSalary(int pfpercentage)  - This method should take PF percentage as an argument. Deduct the PF amount from the salary and set the netSalary.  
+
+Formula:
+
+netSalary = salary - ( salary * pfpercentage ) / 100;
+
+Create a main() function that invokes the method 'calculateNetSalary' by passing the PF percentage as an argument and prints the details as shown in the sample Input/ Output. 
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input:
+Enter Id:
+101
+Enter Name:
+Vivek
+Enter salary:
+20000
+Enter PF percentage:
+7
+
+Sample Output:
+
+Id:101
+Name:Vivek
+Salary:20000
+Net Salary:18600

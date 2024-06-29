@@ -1,0 +1,57 @@
+Develop an app using C++ to calculate employee salary.
+
+
+ class Employee is created with the given private member variables as part of the code skeleton.
+
+int count //Use appropriate keyword to make this a static variable and assign value as 100.For the first employee the id should be 100, for second employee the id should be 101 and so on.
+int employeeId 
+string employeeName
+double salary
+double netSalary
+Include appropriate getters and setters methods in the Employee class as public. 
+
+Implement the given methods as public in the Employee class:
+
+void calculateNetSalary(int pfpercentage)  - This method should take the Provident fund percentage as an argument. Deduct the Provident Fund amount from the salary and set the netSalary. 
+void getEmployeeDetails() - This method gets the employee details like employeeName, employee salary and assign to the private variables.
+static int generateEmployeeId() â€“ increment the value of count by 1 and assign the value to employee id.
+void display() - displays the employee details.
+
+Implement the main method and invoke the methods to get the input, and print the details as shown in the sample. 
+
+Note:
+
+In the main method create an object for the employee class and invoke the getEmployeeDetails method, to get the employeeID invoke generateEmployeeId static method, next invoke the calculateNetSalary method and then invoke display method.
+Important Note: Do not remove or edit the code which is given as part of the code skeleton.
+
+Sample Input 1:
+
+Enter Name:
+Pohe
+Enter salary (In dollars):
+50000
+Enter PF percentage:
+12
+
+Sample Output 1:
+Id: 100
+Name: Pohe
+Net Salary (In dollars): 44000
+
+Sample Input 2:
+
+Enter Name:
+
+John
+
+Enter salary (In dollars):
+60000
+Enter PF percentage:
+12
+
+Sample Output 2:
+Id: 101
+Name: John
+Net Salary (In dollars): 52800
+
+Note: Avoid the usage of exit(0) in your code.  

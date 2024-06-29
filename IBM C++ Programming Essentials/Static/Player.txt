@@ -1,0 +1,45 @@
+class Player with the given private member variables is created as part of the code skeleton.
+
+    int playerID
+    string playerName
+    int playedMatches
+    int playerScore
+Include appropriate public getters methods in the Player class.
+
+Write a public  parameterized constructor in the Player class that takes 3 arguments â€“ playerID, playerName and playerScore.
+
+Display the above player details in the displayThreeArgument method which is provided as part of code skeleton
+
+Write another public parameterized constructor in the Player class that takes 4 arguments - playerID, playerName, playedMatches and playerScore.
+
+Display the above player details in the displayFourArgument method which is provided as part of code skeleton
+
+Write the destructor for the Player Class. Inside the destructor display the message as "Destructor Called".
+
+Implement the main method and test the two methods(displayThreeArgument,displayFourArgument).
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Output:
+
+Player ID. : 1001                                                              
+
+Player Name : John                                                             
+
+Player Score : 130  
+
+                                                                                                     
+
+Player ID. : 1002                                                              
+
+Player Name : Raj                                                              
+
+Played Matches : 100                                                           
+
+Player Score : 5000                                                            
+
+
+
+Destructor Called                                                                     
+
+Destructor Called             

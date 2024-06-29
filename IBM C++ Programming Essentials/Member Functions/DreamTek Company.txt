@@ -1,0 +1,52 @@
+DreamTek Company provides training for new employees who have joined after graduating from college. During the training, these employees are designated as â€œAssociateâ€. The training duration is 60 days for each Associate. In these 60 days, Associates learn various technologies. The first 20 days they learn â€œCore skillsâ€, the next 20 days they learn â€œAdvanced skillsâ€, and the final 20 days they go through a â€œProject phaseâ€. DreamTek would like software to help them know which phase a particular Associate is currently in.
+
+Create a class Employee with the following private member variables:
+
+int associateId
+string associateName
+string workStatus
+Include appropriate getters and setters method in Employee class for the above member variables.
+
+setAssociateId(int)
+getAssociateId()
+setAssociateName(string)
+getAssociateName()
+setWorkStatus(string)
+getWorkStatus()
+updateStatusDetails(int)
+Write the following 'public' method in the Employee class:
+
+
+void updateStatusDetails(int days) - This method should take the number of days as an argument and sets the work status of an employee.
+1. If days <= 20 then setWorkStatus as â€œCore skillsâ€
+2. If days > 20 && days <=40 then setWorkStatus as â€œAdvanced skillsâ€
+3. If days > 40 then setWorkStatus as â€œProject phaseâ€
+
+In the main() method, create an object for the Employee class and get the details as shown in the sample input and assign the values for its attributes using the setters. Invoke the updateStatusDetails() method and find the work status and display the details as shown in the sample output.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+Enter the associate id:
+123
+Enter the associate name:
+john
+Enter the number of days:
+45
+
+Sample Output 1:
+
+The associate john work status: Project phase
+
+Sample Input 2:
+
+Enter the associate id:
+124
+Enter the associate name:
+ram
+Enter the number of days:
+20
+
+Sample Output 2:
+
+The associate ram work status: Core skills

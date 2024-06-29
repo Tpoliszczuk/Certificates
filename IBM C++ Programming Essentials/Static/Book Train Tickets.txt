@@ -1,0 +1,65 @@
+class Train with the given private member variables is created as part of the code skeleton
+
+   long passengerPhone
+   string passengerName
+   char gender
+   int age
+   double ticketPrice
+Include appropriate getters and setters methods as public
+
+long getPassengerPhone() 
+string getPassengerName() 
+char getGender()
+int getAge() 
+double getTicketPrice()
+void setPassengerPhone(long pPhone) 
+void setPassengerName(string pName)
+void setGender(char pGender)
+void setAge(int pAge) 
+void setTicketPrice(double tPrice)
+Write the following method in the Train class as public.
+double calculateAmount()â€”this method should calculate the total and return it based on the discount given:
+
+For Children with age less than 16, give a 50% discount
+For Senior citizen with age greater than or equal to 60 give a 25% discount
+For Ladies give a 10% discount
+No discount for the remaining category. 
+Based on the above condition calculate the total price. One person should not get more than one Discount.
+
+In the main function get the input and invoke the method calculateAmount().
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the Passenger phone no:
+98709879
+Enter the Passenger name:
+Ragav
+Enter the Passenger Age:
+16
+Enter the Gender(M/F):
+M
+Enter the Ticket Price (In dollars):
+100.0
+
+Sample Output 1:
+
+Total Amount(In dollars): 100
+
+Sample Input 2:
+
+Enter the Passenger phone no:
+7980653
+Enter the passenger name:
+Priya
+Enter the age:
+61
+Enter the gender(M or F):
+F
+Enter the ticket price (In dollars):
+500.0
+
+Sample Output 2:
+
+Total Amount(In dollars): 375

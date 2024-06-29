@@ -1,0 +1,33 @@
+class Shop is created with the given private attributes as a part of the code skeleton.
+
+string itemName
+int itemQuantity
+double itemPrice
+Include appropriate getters and setter methods as public. 
+
+    string getItemName()
+    int getItemQuantity()
+    double getItemPrice()
+    void setItemName(string)
+    void setItemQuantity(int)
+    void setItemPrice(double)
+Write a main method to  get the details from the user. Create an object for the Shop class and set the values using the setter methods. Then get the values using getters and display them as shown in the sample Input/Output.
+
+Note: Use the same attribute names and methods as given in the question. Use camel case notation [mixed case with the first letter lowercase and with the first letter of each internal word capitalized, Example:itemName] for methods and variables.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input :
+
+Enter the item name:
+Apple
+Enter the item quantity:
+100
+Enter the item price:
+1000
+
+Sample Output:
+
+Item Name: Apple
+Item Quantity: 100
+Item Price: 1000
