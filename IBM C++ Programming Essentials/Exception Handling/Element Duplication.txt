@@ -1,0 +1,44 @@
+Sara gives an assignment to her students. The students must store the numbers specified to them in an array. When Sara gives an index position in the array, the students must fetch the element from that position, and replace the last element in the array. Implement this logic in C++ using the concepts of arrays and exceptions. 
+
+In the elementDuplication() method:
+Get the size of an array and based on the array size, get the inputs of type : int from the user
+Get the index position from the user and replicate the element at that index and replace it with the last element in the array. 
+If the index specified is beyond the array size, throw a runtime_error with the error message :  â€œArray index is out of rangeâ€. 
+
+In the main() method: Use an exception handling mechanism to handle the exception. Use a catch block for handling the exception. In the catch block, print the error message.
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the size of an array
+4
+Enter the array elements
+1 
+2
+3
+4
+Enter the index position of the element in the array to be replicated
+2
+
+Sample Output 1:
+
+1       2       3         3
+
+
+Sample Input 2:
+
+Enter the size of an array
+3
+Enter the array elements
+1
+2
+3
+Enter the index position of the element in the array to be replicated
+3
+
+Sample Output 2:
+
+Array index is out of range

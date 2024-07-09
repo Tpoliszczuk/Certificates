@@ -1,0 +1,42 @@
+Distribution Transformer is a critical equipment in  the power system. Therefore, monitoring of key parameters like voltage, current and temperature are necessary for evaluating the performance of a distribution transformer.
+
+Implement the logic in string voltageTracker(float v1, float v2,float v3) method. 
+
+If all the line voltage values lie between 240 and 250 V, return the string as "Safe voltage limit" from voltageTracker() method. 
+If any of the voltage values lie between 251 and 275 V, return the string as "Warning voltage limit" from voltageTracker() method. 
+If any of the voltage values exceed 275 V, throw an exception from voltageTracker() method with the message "Danger Detected Over Voltage".
+Do handle the exception in the main method. Develop a C++ program to implement this functionality. 
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter Line voltage value
+
+242
+
+245
+
+241
+
+Sample Output 1:
+
+Safe Voltage limit
+
+
+
+Sample Input 2:
+
+Enter Line voltage value
+
+280
+
+245
+
+242
+
+Sample Output 2:
+
+Danger Detected Over Voltage

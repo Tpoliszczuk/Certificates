@@ -1,0 +1,32 @@
+Sean wants to play a number game with his son. He wants his son to find a 3-digit lucky code from the given set of numbers. A number is said to be lucky if the digit in the middle is 5 or 7.
+
+Implement the logic in bool findMiddle(int num) method. If the condition is satisfied return true, else throw as runtime_error with an error message â€œNot a lucky codeâ€.
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+Do handle the exception from the main. Develop a C++ program using exception concepts. 
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the number
+
+157
+
+Sample Output 1:
+
+157 is a lucky code
+
+
+
+Sample Input 2:
+
+Enter the number
+
+345
+
+Sample Output 2:
+
+Not a lucky code
+

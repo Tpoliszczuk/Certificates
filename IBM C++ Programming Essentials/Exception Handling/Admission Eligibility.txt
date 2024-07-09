@@ -1,0 +1,37 @@
+Union College of Engineering has invited applicants for admission for the current academic year. The eligibility criterion for admission is that the applicantâ€™s score in PCM (Physics, Chemistry, Maths) should be greater than and equal to 180, and the score for each subject should be greater than or equal to 60 (out of 100). 
+
+If the score does not satisfy this condition, throw an error message as â€œNot eligible for Admissionâ€.
+
+Implement the logic in double eligibility_ForAdmission(int,int,int) method.
+
+Note: Test the methods by invoking them in main method. Only business logic is tested in this question and not presentation. Refer the sample input / output to check the correctness of your code.
+
+ Do handle the exception in the main method. Develop an application using the exception concepts in C++.  
+
+Note: Avoid the usage of exit(0) in your code.  
+
+Sample Input 1:
+
+Enter the Physics Marks
+59
+Enter the Chemistry Marks
+90
+Enter the Maths Marks
+90
+
+Sample Output 1:
+
+Not eligible for Admission
+
+Sample Input 2:
+
+Enter the Physics Marks
+78
+Enter the Chemistry Marks
+67
+Enter the Maths Marks
+89
+
+Sample Output 2:
+
+Total score is 234
