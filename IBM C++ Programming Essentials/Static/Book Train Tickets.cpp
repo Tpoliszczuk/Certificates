@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Train // Add required code
+class Train
 {
 private:
     long passengerPhone;
@@ -66,8 +66,8 @@ public:
 };
 
 int main()
-{ // DO NOT change the 'main' signature
-    // Fill code here
+{
+
     long phone;
     string name;
     char gender;
@@ -92,7 +92,7 @@ int main()
     passager.setGender(gender);
     passager.setPassengerName(name);
     passager.setPassengerPhone(phone);
-    // fill the code here
+
     cout << "Total Amount(In dollars): " << passager.calculateAmount() << endl;
 
     return 0;

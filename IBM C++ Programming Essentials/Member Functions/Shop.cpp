@@ -10,7 +10,6 @@ private:
     double itemPrice;
 
 public:
-    // Getters and setters for above variables.
     string getItemName()
     {
         return itemName;
@@ -37,27 +36,26 @@ public:
     }
 };
 
-int main() // DO NOT change the 'main' signature
-{
-    // Input statements are provided as a part of code skeleton
+int main()
+
     string name;
-    int quantity;
-    double price;
-    cout << "Enter the item name:" << endl;
-    cin >> name;
-    cout << "Enter the item quantity:" << endl;
-    cin >> quantity;
-    cout << "Enter the item price:" << endl;
-    cin >> price;
+int quantity;
+double price;
+cout << "Enter the item name:" << endl;
+cin >> name;
+cout << "Enter the item quantity:" << endl;
+cin >> quantity;
+cout << "Enter the item price:" << endl;
+cin >> price;
 
-    Shop item;
-    item.setItemPrice(price);
-    item.setItemQuantity(quantity);
-    item.setItemName(name);
+Shop item;
+item.setItemPrice(price);
+item.setItemQuantity(quantity);
+item.setItemName(name);
 
-    std::cout << "Item Name:" << item.getItemName() << std::endl;
-    std::cout << "Item Quantityy:" << item.getItemQuantity() << std::endl;
-    std::cout << "Item Price:" << item.getItemPrice() << std::endl;
-    // Fill the code here
-    return 0;
+std::cout << "Item Name:" << item.getItemName() << std::endl;
+std::cout << "Item Quantityy:" << item.getItemQuantity() << std::endl;
+std::cout << "Item Price:" << item.getItemPrice() << std::endl;
+
+return 0;
 }

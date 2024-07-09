@@ -1,0 +1,66 @@
+Dan is playing a video game in which his character competes in a hurdle race by jumping over hurdles. The game maintains a scorecard. It accepts the number of hurdles in the race, and the height of each hurdle. Write a program to simulate this. The program must display the heights of the last 5 hurdles that Dan jumps over.
+
+
+Note:
+Observe the highlighted output statements in the sample input and output statements for more clarifications.
+Do not change the code template given.  Write your code in the provided places alone.
+Avoid the usage of exit(0) in your code.
+
+Input Format
+The first input is the no. of hurdles which should be >0 and <=100.
+The second input is the height of each hurdle.
+
+Output Format
+Print the heights of the last 5 hurdles scores which are stored in the scorecard.
+
+
+Sample input statement 1:
+Enter the no. of hurdles:8
+
+Enter the hurdle height 1:6
+Enter the hurdle height 2:2
+Enter the hurdle height 3:5
+Enter the hurdle height 4:3
+Enter the hurdle height 5:6
+Enter the hurdle height 6:9
+Enter the hurdle height 7:5
+Enter the hurdle height 8:7
+
+Sample output statement 1:
+Latest hurdle race scores are: 3 6 9 5 7
+
+
+Sample input statement 2:
+Enter the no. of hurdles: 6
+
+Enter the hurdle height 1:5
+Enter the hurdle height 2:1
+Enter the hurdle height 3:4
+Enter the hurdle height 4:6
+Enter the hurdle height 5:4
+Enter the hurdle height 6:8
+
+
+Sample output statement 2:
+Latest hurdle race scores are: 1 4 6 4 8
+
+
+Sample input statement 3:
+Enter the no. of hurdles:0
+
+Sample output statement 3:
+Invalid no. of hurdles
+
+
+Sample input statement 4:
+Enter the no. of hurdles:101
+
+Sample output statement 4:
+Invalid no. of hurdles
+
+
+Sample input statement 5:
+Enter the no. of hurdles:-1
+
+Sample output statement 5:
+Invalid no. of hurdles

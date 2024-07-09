@@ -4,7 +4,8 @@ using namespace std;
 class College
 {
 private:
-    static string principal_name; // principal_name is common for all the students
+    static string principal_name;
+
 public:
     static void setPrincipalName(string name)
     {
@@ -16,7 +17,7 @@ public:
     }
 };
 string College::principal_name = "John";
-// Initialize the static principal_name variable with value "John" here
+
 class Student
 {
 private:
@@ -123,7 +124,7 @@ void Student::displayStudentDetails()
     std::cout << "Average: " << calculateAverage() << std::endl;
     std::cout << "Grade : " << findGrade() << std::endl;
 }
-int main() // DO NOT change the 'main' signature
+int main()
 {
     Student s1;
     s1.getStudentDetails();

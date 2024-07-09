@@ -37,7 +37,6 @@ public:
     }
 };
 
-// Initialize static variables of Company
 string Company::companyName = "TekSoft";
 string Company::address = "LosAngeles";
 long int Company::contactNumber = 422245673;

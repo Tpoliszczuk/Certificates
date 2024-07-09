@@ -44,9 +44,9 @@ public:
     }
 };
 
-int main() // DO NOT change the 'main' signature
+int main()
 {
-    // Input statements are provided as part of the code skeleton
+
     Mobile telefon;
     string brand, model;
     double price;
@@ -65,6 +65,6 @@ int main() // DO NOT change the 'main' signature
     std::cout << "Mobile Brand: " << telefon.getMobileBrand() << std::endl;
     std::cout << "Mobile Model Name: " << telefon.getMobileModelName() << std::endl;
     std::cout << "Mobile Price: " << telefon.getMobilePrice() << std::endl;
-    // Fill the code here
+
     return 0;
 }

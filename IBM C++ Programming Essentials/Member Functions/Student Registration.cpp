@@ -2,7 +2,7 @@
 using namespace std;
 
 class Student
-{ // DO NOT change the class name
+{
 private:
     int studentId;
     string name;
@@ -54,9 +54,9 @@ public:
         phoneNumber = phNo;
     }
 };
-int main() // DO NOT change the 'main' signature
+int main()
 {
-    // Input statements are provided as a part of the code skeleton
+
     int id, deptId;
     string name, gender, phNo;
     cout << "Enter the details:" << endl;

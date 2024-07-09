@@ -70,17 +70,16 @@ public:
 
         return count;
     }
-    // fill the code here
 };
 int Employee::count = 99;
 
-int main() // DO NOT change the 'main' signature
+int main()
 {
 
     Employee pracownik;
 
     pracownik.getEmployeeDetails();
-    // create object for Employee class
+
     int pfpercentage;
     cout << "Enter PF percentage:" << endl;
     cin >> pfpercentage;

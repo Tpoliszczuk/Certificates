@@ -30,7 +30,7 @@ public:
 
     double calculateDecemberMonthExpense()
     {
-        // Implement your code
+
         return household_exp + medical;
     }
 
