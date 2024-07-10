@@ -1,0 +1,95 @@
+A teacher plans to conduct a game - called Key Hunt for his students. There is a treasure box, the player needs to search for the key to open that treasure box.  To implement this game, the teacher needs to construct a structure consisting of junctions, which has a key with a number.
+
+Start with a single junction and each junction will have a maximum of two or no branches to connect to other junctions.  The keys are arranged in such a way that the key numbers are lesser on the left side of the junction and greater or equal on the right side.
+
+The rule for the game is that the player needs to check each junction for matching key numbers.  If the player finds the matching key, the player wins. If the search key number is lesser than the number found in the current junction, then continue the search in the is the left side of the junction, else search in the right side of the junction.  After searching in all the junctions, if the key is not found, then the player loses.
+
+Write a program to simulate this game.  For this, first, you have to create required junctions and then search for the key number entered based on the rules specified.  Refer to the sample input and output statements for more clarifications.
+
+The template for the program is given.  Classes and Methods in the template:
+class Node {
+    public:
+    int data;
+    Node *left, *right;
+};
+The class Node is for creating a tree node that contains 3 attributes: data, a reference to the left tree node, and a reference to the right tree node.
+
+class BST
+{
+    public :
+    Node *root;
+    BST() {
+        root = NULL;
+    }
+    Node* insert(Node*, int);
+    int search(int);
+};
+The class BST is for creating the Binary Search Tree. This class contains:  
+The attribute 'root' is for referring to the root node of the tree.
+The constructor is for initializing the root variable with NULL.
+Two member functions: insert() and search().
+Node* BST :: insert(Node* root, int value):
+This method is for inserting the nodes in the binary search tree. It takes the tree root and the value to be inserted as its parameters, and should return the root of the tree after each insertion.
+
+int BST :: search(int searchKey):
+This method is for performing the search operation in the binary search tree. It takes the search key as its parameter and should return the search data if the search key finds it in the tree, else it should return -1.
+
+Note:
+Observe the highlighted output statements in the sample input and output statements for more clarifications.
+Do not change the code template given.  Write your code in the provided places alone.
+Avoid the usage of exit(0) in your code.  
+
+Sample input statement 1:
+Enter the key number:
+1
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+2
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+3
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+4
+Do you want to create another junction (yes/no)?
+no
+
+Enter the key to be searched
+6
+
+Sample output statement 1:
+6 not found
+
+
+Sample input statement 2:
+Enter the key number:
+1
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+2
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+3
+Do you want to create another junction (yes/no)?
+yes
+
+Enter the key number:
+4
+Do you want to create another junction (yes/no)?
+no
+
+Enter the key to be searched
+1
+
+Sample output statement 2:
+1 found

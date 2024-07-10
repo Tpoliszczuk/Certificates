@@ -1,0 +1,37 @@
+Implement Merge Sort using arrays. Apply Divide and Conquer algorithm design strategy to solve this. This strategy divides the input array into two halves until each half contains a single element and then merges these two sorted halves.
+
+If the size of the array is less than or equal to 0 then print "Invalid array size" and terminate the program.
+
+Functions to be used:
+void mergeSort(int *arr, int low, int high) â€“ A function to split the array into two parts.
+void merge(int *arr, int low, int high, int mid) - A function to merge the two half into sorted data.
+
+
+
+Note:
+Observe the highlighted output statements in the sample input and output statements for more clarifications.
+Do not change the code template given.  Write your code in the provided places alone.
+Avoid the usage of exit(0) in your code.  
+
+Sample input statement 1:
+Enter the size of an array:5                                                                                                                      
+Enter the elements:
+3                                                            
+1                                                                               
+2                                                                               
+8                                                                               
+6                                                                               
+
+Sample output statement 1:
+Given array is                                                                  
+3 1 2 8 6                                                                                                                                                 
+
+The sorted array is                                                                 
+1 2 3 6 8    
+
+
+Sample input statement 2:
+Enter the size of an array:0                                                                                                      
+
+Sample output statement 2:
+Invalid array size

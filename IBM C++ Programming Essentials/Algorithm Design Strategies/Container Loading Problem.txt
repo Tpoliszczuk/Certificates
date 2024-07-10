@@ -1,0 +1,44 @@
+Assume, there are N containers that need to be loaded into the ship. The capacity of the ship is W tons.  If weights of the N containers are given, find out the maximum number of containers that can be loaded into the ship.  Write a program in C++ to solve the problem.
+
+Note:
+Observe the highlighted output statements in the sample input and output statements for more clarifications.
+Do not change the code template given.  Write your code in the provided places alone.
+Avoid the usage of exit(0) in your code.  
+
+Input format:
+The first line of the input consists of an integer that corresponds to n.
+The next n lines of the inputs consist of integers that correspond to the weights of the n containers [w1, w2,... wn].
+The last line of the input consists of an integer that corresponds to W.
+
+Output format:
+The first line of the output consists of a single integer that corresponds to the maximum number of containers that can be loaded into the ship.
+The next line of the output corresponds to the solution vector.
+
+
+Sample input statement 1:
+8
+50
+100
+30
+80
+90
+200
+150
+20
+400
+
+Sample output statement 1:
+6
+[1,1,1,1,1,0,0,1]
+
+
+Sample input statement 2:
+3
+40
+50
+5
+45
+
+Sample output statement 2:
+2
+[1,0,1]

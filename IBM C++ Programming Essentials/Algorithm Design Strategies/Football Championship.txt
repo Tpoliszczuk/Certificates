@@ -1,0 +1,84 @@
+In the football championship, many teams are qualified with unique scores. The score of each team is stored in an array in sorted order. Assume, the array index represents the team. 
+That is index 0 represents Team 1; index 1 represents Team 2 and so on. If a score is given, then one should find out which team got that score with an O(log n) time. 
+
+Also, the code must display the mid scores (middle elements) in each iteration of the searching process.
+
+Since Ronn wants to solve this puzzle with binary search, he decides to write a binary search himself. But he cannot remember the logic of binary search. Help Ronn to write the program.
+
+
+Function signature :  int binarySearch(int[] ar, int size, int key)
+This function is for performing the binary search operation and should display all the mid scores (midpoints) in each iteration of the search operation.  
+This function should return the team number (position/index of the score in the array+1) if the specified score is found in the array.  If the key is not found, it should return -1.
+
+Note:
+Observe the highlighted output statements in the sample input and output statements for more clarifications.
+Do not change the code template given.  Write your code in the provided places alone.
+Avoid the usage of exit(0) in your code.  
+
+Sample input statement 1:
+Enter the number of teams:6
+Enter the score:
+23
+45
+46
+57
+67
+69
+
+Enter the score to be searched:69
+
+Sample output statement 1:
+Mid scores: 46 67 69
+Score found for team 6
+
+
+Sample input statement 2:
+Enter the number of teams:5
+Enter the score:
+10
+30
+35
+53
+67
+Enter the score to be searched:5
+
+Sample output statement 2:
+Mid scores: 35 10
+Score not found
+
+
+Sample input statement 3:
+Enter the number of teams:2
+Enter the score:
+56
+890
+Enter the score to be searched:90
+
+Sample output  statement 3:
+Mid scores: 56 890
+Score not found
+
+
+Sample input statement 4:
+Enter the number of teams:3
+Enter the score:
+12
+23
+45
+Enter the score to be searched:23
+
+Sample output statement 4:
+Mid scores:23
+Score found for team 2
+
+
+Sample input statement 5 :
+Enter the number of teams:2
+Enter the score:
+60
+90
+Enter the score to be searched:10
+
+Sample output statement 5:
+Mid scores:60
+Score not found
